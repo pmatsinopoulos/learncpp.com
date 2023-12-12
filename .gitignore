@@ -1,4 +1,6 @@
 *.dSYM
-main*
+main
+main2
+main20
 .vscode
 *.code-workspace
