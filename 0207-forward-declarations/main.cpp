@@ -1,19 +1,9 @@
 #include <iostream>
-
-int add(int a, int b)
-{
-  return a + b;
-}
-
-int add(int a, int b)
-{
-  return a + b;
-}
+#include "add.hpp"
 
 int main()
 {
-  int x{};
-  int x{ 5 }; // violation of ODR, we've already defined x
+  std::cout << add(3, 4) << '\n';
 
   return 0;
 }
