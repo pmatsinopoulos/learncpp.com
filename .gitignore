@@ -6,3 +6,6 @@ main4
 main20
 .vscode
 *.code-workspace
+*.log
+**/*.log
+
